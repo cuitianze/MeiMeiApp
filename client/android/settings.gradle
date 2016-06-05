@@ -3,5 +3,3 @@ rootProject.name = 'meimeiApp'
 include ':app'
 include ':jpush-react-native'
 project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/jpush-react-native/android')
-include ':react-native-jpush'
-project(':react-native-jpush').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-jpush/android')

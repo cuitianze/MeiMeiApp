@@ -2,7 +2,6 @@ package com.meimeiapp;
 
 import com.facebook.react.ReactActivity;
 import cn.jpush.reactnativejpush.JPushPackage;
-import cn.reactnative.modules.jpush.JPushPackage;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 
@@ -37,7 +36,6 @@ public class MainActivity extends ReactActivity {
     protected List<ReactPackage> getPackages() {
         return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
-            new JPushPackage(),
             new JPushPackage()
         );
     }
