@@ -12,6 +12,8 @@ import {
   View
 } from 'react-native';
 
+import App from './src';
+
 class meimeiApp extends Component {
   render() {
     return (
@@ -50,4 +52,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('meimeiApp', () => meimeiApp);
+AppRegistry.registerComponent('meimeiApp', () => App);
