@@ -9,7 +9,8 @@
     "jpush-react-native": "0.0.5",
     "react": "15.0.2",
     "react-native": "^0.26.0",
-    "react-native-sound": "^0.8.3"
+    "react-native-sound": "^0.8.3",
+    "react-native-vector-icons": "^2.0.3"
   },
   "devDependencies": {
     "rnpm-plugin-upgrade": "^0.26.0"

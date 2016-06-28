@@ -120,6 +120,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-vector-icons')
     compile project(':react-native-sound')
     compile project(':jpush-react-native')
     compile fileTree(dir: "libs", include: ["*.jar"])
